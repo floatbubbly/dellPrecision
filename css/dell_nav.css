@@ -1,0 +1,377 @@
+body {
+	padding: 0px;
+    margin: 0px;
+    font-family: 'Roboto','Roboto Condensed','Microsoft JhengHei', 'Microsoft YaHei', Helvetica, Arial, Lucida, sans-serif;
+    /*text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);*/
+    background: #1a1a1a;
+    line-height: 1.5em;
+    box-sizing: border-box;
+    -webkit-text-size-adjust: none;
+    color:#4C4C4C;
+    box-sizing: border-box;
+	letter-spacing: 0.1em;
+}
+a , a:hover {
+	text-decoration: none;
+}
+ul, ul li {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+img {
+	max-width: 100%;
+}
+nav {
+	background: #1A1A1A;
+	width: 100%;
+	height: 90px;
+	position: fixed;
+	top:0;
+	z-index: 999;
+}
+.overlay_close {
+	width: 40px;
+	height: 40px;
+	background: url(../images/iconmonstr-x-mark-2.svg) no-repeat center center #58BCE8;
+	background-size: 24px 24px;
+	position: absolute;
+	right: 0;
+	top:0;
+}
+.header_search {
+	background: url(../images/icon_search.png) no-repeat center center;
+	background-size: cover;
+	height: 40px;
+	width: 40px;
+	float:right;
+	margin:23px 15px 0 0;
+}
+.header_menu {
+	background: url(../images/icon_menu.png) no-repeat center center;
+	background-size: cover;
+	height: 40px;
+	width: 40px;
+	float:right;
+	margin:23px 0px 0 0;
+}
+.overlay_header {
+	position: fixed;
+	z-index: 1000;
+	width: 100%;
+	height: 100%;
+	background: rgba(38,127,187,0.97);
+	display: none;
+}
+.overlay_header_menu {
+	position: fixed;
+	z-index: 1000;
+	width: 100%;
+	height: 100%;
+	background: rgba(38,127,187,0.97);
+	display: none;
+}
+.search_full {
+	width: 800px;
+	position: absolute;
+	left: 50%;
+	top:50%;
+	transform: translate(-50%,-50%);
+}
+.menu_full {
+	padding: 120px 90px;
+}
+.open {
+	display: block;
+}
+ #mk-fullscreen-searchform #mk-fullscreen-search-input {
+    width: 800px;
+    background-color: transparent;
+    -webkit-box-shadow: 0 3px 0 0 rgba(255, 255, 255, .5);
+    -moz-box-shadow: 0 3px 0 0 rgba(255, 255, 255, .5);
+    box-shadow: 0 3px 0 0 rgba(255, 255, 255, .5);
+    border: 0;
+    text-align: center;
+    font-size: 35px;
+    padding: 20px;
+    color: #fff;
+    -webkit-transition: all .3s ease-out;
+    -moz-transition: all .3s ease-out;
+    -ms-transition: all .3s ease-out;
+    -o-transition: all .3s ease-out;
+    transition: all .3s ease-out;
+}
+ #mk-fullscreen-searchform #mk-fullscreen-search-input::placeholder {
+ 	color:#fff;
+ }
+#mk-fullscreen-searchform .fullscreen-search-icon {
+    font-size: 25px;
+    position: absolute;
+    right: 15px;
+    width: 25px;
+    top: 30px;
+    color: #fff;
+    color: rgba(255, 255, 255, .2);
+    -webkit-transition: all .2s ease-out;
+    -moz-transition: all .2s ease-out;
+    -ms-transition: all .2s ease-out;
+    -o-transition: all .2s ease-out;
+    transition: all .2s ease-out;
+}
+#mk-fullscreen-searchform input[type=submit] {
+    position: absolute;
+    width: 100px;
+    height: 100%;
+    background-color: transparent;
+    border: 0;
+    right: 0;
+    top: 0;
+}
+.fa-search:before {
+    content: "\f002";
+    color:#fff;
+}
+.warp_block {
+	max-width: 1600px;
+	display: block;
+	margin: 0 auto;
+	padding: 0 90px;
+}
+.nav_wrap {
+	max-width: 1600px;
+	display: block;
+	margin: 0 auto;
+	padding: 0 90px;
+}
+.dell_event_wrap {
+	max-width: 1600px;
+	display: block;
+	margin: 0 auto;
+	background: #fff;
+	padding: 90px 0 0 0;
+}
+.tab-group {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 40px 0;
+}
+.tab-group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.tab-group li {
+    padding: 0 3% 0 0;
+    float: left;
+    min-width: 15%;
+}
+.tab-group li a {
+  display: inline;
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+  text-align: left;
+  cursor: pointer;
+  transition: .5s ease;
+  padding: 15px;
+  border-bottom: 3px solid transparent;
+}
+.tab-group li a:hover {
+	border-bottom: 3px solid #00BAE5;
+	color: #ffffff;
+}
+.tab-group .active a {
+	border-bottom: 3px solid #00BAE5;
+	color: #fff;
+}
+.tab-content > div {
+	display: none;
+	padding:0 15px;
+}
+.tab-content > div:first-child {
+	display: block;
+}
+.nav_header_wrap {
+	width: auto;
+    height: 100%;
+    font-size: 18px;
+    margin:50px 0 0 0;
+}
+.tab-content .header_contact {
+	border-left: 1px solid #fff;
+	height: 100vh;
+	float:right;
+	color:#fff;
+	padding-left: 50px;
+	width: 40%;
+}
+.tab-content .header_link_list {
+	float:left;
+	width: 60%;
+}
+.tab-content .header_link_list ul li {
+	margin:0 0 2em 0;
+}
+.tab-content .header_link_list ul li a {
+	color:#fff;
+	font-size: 24px;
+}
+
+
+
+
+nav .logo_dell {
+	float:left;
+	margin: 30px 30px 0 0;
+	width: 140px;
+}
+nav .logo_mircosoft {
+	float:left;
+	margin: 23.5px 30px 0 0;
+	width: 160px;
+}
+nav .search-block {
+	float: right;
+	padding: 20px 0 0 0;
+	position: relative;
+}
+footer {
+	width: 100%;
+	float:left;
+	background: #000;
+	padding: 50px 0;
+	color:#fff;
+}
+footer .copyright {
+	float:left;
+	width: 100%;
+	margin: 30px 0 0 0;
+	font-size: 15px;
+	text-align: justify;
+}
+footer .contact {
+	float:left;
+	width: calc(100% - 370px);
+	padding: 30px 0 0 85px;
+	background: url(../images/icon_phone.png) no-repeat left center;
+	background-size: auto 65px;
+}
+footer .contact p {
+	float:left;
+	width: 100%;
+	margin: 0;
+}
+footer .btn_facebook {
+	float: right;
+	background: url(../images/btn_fb.png) no-repeat 0 0;
+	background-size: 100% auto;
+	width: 350px;
+	height: 82px;
+	/*height: 120px;*/
+}
+
+@media (max-width: 900px) {
+	footer .contact {
+		float:left;
+		width: calc(100% - 300px);
+		padding: 20px 0 0 0px;
+		background: none;
+		/*background-size: auto 55px;*/
+	}
+	footer .btn_facebook {
+		float: right;
+		background: url(../images/btn_fb.png) no-repeat 0 0;
+		background-size: 100% auto;
+		width: 280px;
+		height: 65px;
+		/*height: 120px;*/
+	}
+}
+@media (max-width: 850px) {
+	#search-content .square {
+		width: 250px;
+		border: 3px solid #007db8;
+	}
+}
+
+
+@media (max-width: 768px) {
+	.warp_block {
+		padding: 0 50px;
+	}
+	.nav_wrap {
+		padding: 0 50px;
+	}
+	.dell_event_wrap {
+		padding-top: 70px;
+	}
+	nav {
+		height: 70px;
+	}
+	nav .logo_dell {
+		float:left;
+		margin: 25px 30px 0 0;
+		width: 100px;
+	}
+	nav .logo_mircosoft {
+		float:left;
+		margin: 25px 30px 0 0;
+		width: 120px;
+	}
+	nav .search-block {
+		padding:15px 0 0 0;
+	}
+	.header_search {
+		height: 30px;
+		width: 30px;
+		margin:23px 15px 0 0;
+	}
+	.header_menu {
+		height: 30px;
+		width: 30px;
+		margin:23px 0px 0 0;
+	}
+	footer .contact {
+		float:left;
+		width: 100%;
+		margin:0 0 15px 0;
+	}
+	footer .btn_facebook {
+		float: right;
+		background: url(../images/btn_fb.png) no-repeat 0 0;
+		background-size: 100% auto;
+		width: 250px;
+		height: 58px;
+	}
+}
+@media (max-width: 480px) {
+	.nav_wrap {
+	    padding: 0 30px;
+	}
+	nav .logo_dell {
+		float:left;
+		margin: 25px 15px 0 0;
+		width: 60px;
+	}
+	nav .logo_mircosoft {
+		float:left;
+		margin: 25px 15px 0 0;
+		width: 80px;
+	}
+	.header_search {
+		height: 25px;
+		width: 25px;
+		margin:23px 15px 0 0;
+	}
+	.header_menu {
+		height: 25px;
+		width: 25px;
+		margin:23px 0px 0 0;
+	}
+	footer .copyright {
+		font-size: 12px;
+	}
+	.warp_block {
+	    padding: 0 30px;
+	}
+}

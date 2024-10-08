@@ -1,0 +1,1276 @@
+.heading {
+	font-size: 48px;
+}
+.dell_event_kv {
+	width: 100%;
+	position: relative;
+}
+.kv_index {
+	background: url(../images/kv_index.jpg) no-repeat center top;
+	background-size: auto 100%; 
+	width: 100%;
+	padding-top: 37.5%;
+}
+.kv_intro {
+	position: absolute;
+	width: 50%;
+	box-sizing: border-box;
+	padding:0 90px;
+	top:50%;
+	transform: translate(0, -50%);
+}
+.kv_intro h2 {
+	display: block;
+	color: #fff;
+	font-size: 2.5em;
+	letter-spacing: 0.1em;
+}
+.kv_intro p {
+	display: block;
+	color:#878787;
+	letter-spacing: 0.1em;
+	margin: 0 0 30px 0;
+}
+.kv_intro a {
+	float:left;
+	border:2px solid #fff;
+	color:#fff;
+	letter-spacing: 0.2em;
+	height: 42px;
+	line-height: 40px;
+	padding:0px 5px 0px 48px;
+	text-align: center;
+	position: relative;
+}
+.kv_intro a:before {
+	position: absolute;
+	content: '';
+	background: url(../images/iconmonstr-care-right-thin.svg) no-repeat center center;
+	background-size: 18px 18px;
+	width: 40px;
+	height: 42px;
+	left: 0;
+	top:-2px;
+	border-right: 2px solid #fff;
+}
+.kv_intro a:hover {
+	background: #fff;
+	color:#000;
+}
+.kv_intro a:hover:before {
+	background: #fff;
+	border-right: 2px solid #000;
+	background: url(../images/iconmonstr-arrow-37.svg) no-repeat center center;
+	background-size: 18px 18px;
+}
+
+section {
+	padding: 90px 90px;
+	width: 100%;
+	float:left;
+	position: relative;
+}
+.dell_20_years {
+	background: #B9B9B9;
+}
+.dell_20_years .years_img {
+	width: 50%;
+	float:left;
+}
+.dell_20_years .years_info {
+	width: 50%;
+	float:left;
+	padding: 0 0 0 50px;
+	color:#000;
+	line-height: 1.75em;
+}
+.dell_20_years .years_info .heading {
+	width: 100%;
+	float:left;
+	margin:0 0 10px 0;
+}
+.dell_20_years .years_info .info_text {
+	width: 100%;
+	float:left;
+	margin:0 0 20px 0;
+	text-align: justify;
+}
+.button_blue {
+	border:2px solid #3580A7;
+	padding: 0 8px;
+	color:#3580A7;
+	float:right;
+	line-height: 40px;
+}
+.button_blue:hover {
+	color:#fff;
+	background-color:#3580A7;
+}
+.dell_creative {
+	background: #444444;
+	text-align: center;
+	color:#fff;
+}
+.dell_creative .info_creative {
+	color:#878787;
+	width: 100%;
+	float:left;
+	margin: 30px 0;
+}
+.button_group {
+	width: 100%;
+	float:left;
+	text-align: center;
+}
+.button_group li {
+	display: inline-block;
+	border:2px solid #fff;
+	line-height: 40px;
+	margin:0 10px;
+}
+.button_group a {
+	padding: 0 8px;
+	display: block;
+	color:#fff;
+}
+.button_group a:hover {
+	background: #fff;
+	color:#000;
+}
+.dell_machine_hero {
+	width: 100%;
+	float:left;
+	text-align: center;
+	background: url(../images/CS_Machine_Hero.jpg) no-repeat center center;
+	background-size: cover;
+}
+.dell_machine_hero .hero_title {
+	font-size: 24px;
+	color:#ffd143;
+	margin:0 0 40px 0;
+	width: 100%;
+	float:left;
+}
+.dell_machine_hero .heading {
+	color:#fff;
+}
+.dell_machine_hero .solve-1 {
+	color:#fff;
+	font-size: 16px;
+	width: 100%;
+	float:left;
+	margin-top: 20px;
+}
+.dell_machine_hero .solve-2 {
+	font-size: 16px;
+	width: 100%;
+	float:left;
+	margin-top: 20px;
+	color:#878787;
+}
+.img_group {
+	width: 70%;
+	display: flex;
+	float:left;
+	justify-content: space-between;
+	margin: 50px 15% 80px 15%;
+	text-align: center;
+	color:#fff;
+}
+.img_group li {
+	width: 30%;
+}
+.img_group li .icons {
+	width: 100%;
+	padding: 0 10% 20px 10%;
+}
+.img_group li span {
+	width: 100%;
+	float:left;
+}
+.button_more {
+	display: inline-block;
+	padding: 0 8px;
+	line-height: 40px;
+	border:2px solid #fff;
+	color:#fff;
+}
+.button_more:hover {
+	border:2px solid #fff;
+	background-color:#fff;
+	color:#000;
+}
+.dell_performance {
+	background: #fff;
+}
+.dell_performance .heading {
+	text-align: center;
+	color:#000;
+}
+.dell_performance .info_performance {
+	width: 80%;
+	float:left;
+	margin:30px 10%;
+	color:#878787;
+	text-align: center;
+}
+.mv_list {
+	width: 100%;
+	float:left;
+	display: inline-flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-content: stretch;
+}
+.mv_list li {
+	width: 23%;
+	margin:0 0 2em 0;
+	padding: 0 0 40px 0;
+	position: relative;
+}
+.mv_list li a {
+	width: 100%;
+	float:left;
+}
+.mv_list li .mv_cover {
+	width: 100%;
+	float:left;
+	position: relative;
+	padding: 54.5% 0 0 0;
+	margin:0 0 10px 0;
+	transition: all 0.5s;
+}
+.mv_list li .mv_cover p {
+	position: absolute;
+	top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:#fff;
+    font-size: 18px;
+    white-space: nowrap;
+    text-align: center;
+    line-height: 1.75em;
+}
+.mv_list li .mv_cover.mv_1 {
+	background: url(../images/mv_1.jpg) no-repeat center center;
+	background-size: 100% 100%;
+}
+.mv_list li .mv_cover.mv_2 {
+	background: url(../images/mv_2.jpg) no-repeat center center;
+	background-size: 100% 100%;
+}
+.mv_list li .mv_cover.mv_3 {
+	background: url(../images/mv_3.jpg) no-repeat center center;
+	background-size: 100% 100%;
+}
+.mv_list li .mv_cover.mv_4 {
+	background: url(../images/mv_4.jpg) no-repeat center center;
+	background-size: 100% 100%;
+}
+.mv_list li .mv_cover.mv_5 {
+	background: url(../images/mv_5.jpg) no-repeat center center;
+	background-size: 100% 100%;
+}
+.mv_list li .mv_cover.mv_6 {
+	background: url(../images/mv_6.jpg) no-repeat center center;
+	background-size: 100% 100%;
+}
+.mv_list li .mv_cover.mv_7 {
+	background: url(../images/mv_7.jpg) no-repeat center center;
+	background-size: 100% 100%;
+}
+.mv_list li .mv_cover.mv_8 {
+	background: url(../images/mv_8.jpg) no-repeat center center;
+	background-size: 100% 100%;
+}
+.mv_list li .intro_mv {
+	width: 100%;
+	float:left;
+	color:#878787;
+	text-align: justify-all;
+}
+.mv_list li .more_info {
+	float:right;
+	color:#007db8;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+.mv_list li .more_info:after {
+	content: '▶';
+	margin:0 0 0 5px;
+}
+.mv_list li a:hover .mv_cover {
+	background-size: 120% 120%;
+}
+.dell_tech {
+	background:#CCCCCC;
+}
+.dell_tech .heading {
+	text-align: center;
+}
+.tech_group {
+	width: 80%;
+	float:left;
+	display: flex;
+	justify-content: space-between;
+	margin: 50px 10% 0 10%;
+}
+.tech_group li {
+	width: 23%;
+	text-align: center;
+}
+.tech_group li .tech_pic {
+	max-width: 150px;
+	display: block;
+	margin: 0 auto;
+}
+.tech_group li p {
+	width: 100%;
+	float:left;
+	font-weight: bold;
+}
+.tech_group li span {
+	color:#878787;
+	width: 100%;
+	float:left;
+	margin:0 0 30px 0;
+}
+.tech_group li a {
+	color:#007DA6;
+}
+.tech_group li a:after {
+	content: '▶';
+	margin:0 0 0 5px;
+}
+.tech_group li a:hover {
+	text-decoration: underline;
+}
+.dell_action {
+	background: #fff;
+	display: table;
+}
+.dell_action .item {
+	display: table-cell;
+	width: 300px;
+	padding: 0 80px 0 30px;
+	border-right: 1px solid #723D70;
+}
+.dell_action .call_action {
+	padding: 0 0 0 50px;
+}
+.dell_action .call_action .windows_logo {
+	background: url(../images/logo_windows_blue.png) no-repeat left bottom;
+	background-size: 442px 66px;
+	padding: 36px 0 0 450px;
+	float:left;
+	height: 66px;
+	width: 100%;
+	margin:0 0 20px 0;
+} 
+.dell_action .call_action p {
+	font-size: 1.2em;
+	line-height: 2em;
+}
+.dell_action .call_action p span{
+	color:#723D70;
+	font-weight: bold;
+}
+.dell_action .call_action p i {
+	font-size: 13px;
+	color:#AAAAAA;
+}
+.dell_action .call_action .button_join {
+	float:right;
+	line-height: 40px;
+	background: #723D70;
+	color:#fff;
+	padding: 0 8px;
+	min-width: 120px;
+	text-align: center;
+}
+.kv_ai {
+	background: url(../images/screenshot.jpg) no-repeat center center;
+	background-size: cover;
+}
+.AI_intro {
+	width: 768px;
+	display: block;
+	margin: 0 auto;
+	padding: 120px 0;
+	color:#fff;
+}
+.AI_intro h2 {
+	display: block;
+	margin:0 0 50px 0;
+	text-align: center;
+	letter-spacing: 0.25em;
+	font-size: 40px;
+}
+.AI_intro p {
+	display: block;
+	font-size: 16px;
+	text-align: justify;
+	margin:0 0 80px 0;
+	line-height: 1.75em;
+}
+.AI_intro .button_vedio {
+	background: url(../images/icon_vedio.png) no-repeat center top;
+	background-size: 88px auto;
+	width: inline-block;
+	white-space: nowrap;
+	display: block;
+	padding: 95px 0 0 0;
+	text-align: center;
+	color:#fff;
+}
+.dell_workstation {
+	background: #C5C5C5;
+}
+.dell_workstation .workstation_img {
+	width: 50%;
+	float:left;
+}
+.dell_workstation .workstation_info {
+	width: 50%;
+	float:left;
+	padding-left: 50px;
+	color:#000;
+}
+.dell_workstation .workstation_info h3 {
+	text-align: center;
+}
+.dell_workstation .intro_workstation {
+	display: block;
+	margin: 20px 0 0 0;
+	color:#1A1A1A;
+	text-align: justify;
+}
+.dell_future {
+	background: #444444;
+	color:#fff;
+}
+.dell_future h3 {
+	text-align: center;
+}
+.dell_future .intro_future {
+	width: 100%;
+	float:left;
+	margin: 30px 0;
+	line-height: 1.5em;
+	text-align: justify;
+}
+.future_list {
+	width: 100%;
+	float:left;
+	display: flex;
+	justify-content: space-between;
+}
+.future_list li {
+	width: 18%;
+}
+.future_list li .future_img {
+	position: relative;
+	margin:0 0 15px 0;
+}
+.future_list li .future_img i {
+	position: absolute;
+	top:50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+	font-style: normal;
+	white-space: nowrap;
+}
+.future_list li p {
+	color:#878787;
+}
+.dell_ai_ready {
+	display: table;
+	background: url(../images/hrline.png) no-repeat center bottom #fff;
+	padding-bottom: 50px;
+}
+.info_ai_ready {
+	display: table-cell;
+	vertical-align: middle;
+	width: 50%;
+}
+.info_ai_ready h3 {
+	text-align: center;
+}
+.info_ai_ready .intro_ai_ready {
+	display: block;
+	margin: 20px 0 0 0;
+	text-align: justify;
+}
+.pic_ai_ready {
+	display: table-cell;
+	width: 50%;
+}
+.pic_ai_ready img {
+	/*max-width: 640px;*/
+}
+.dell_tower {
+	background: #fff;
+}
+.dell_tower .Tower5820 {
+	width: 50%;
+	float:left;
+	display: table;
+}
+.dell_tower .Tower7920 {
+	width: 50%;
+	float:left;
+	display: table;
+}
+.tower_img {
+	width: 200px;
+	display: table-cell;
+}
+.tower_info {
+	display: table-cell;
+	vertical-align: middle;
+}
+.tower_info ul {
+	padding: 0 0 0 20px;
+	font-size: 14px;
+	margin: 0 0 20px 0;
+}
+.tower_info ul li {
+	list-style-type: disc;
+}
+.specification {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	border-top:1px solid #878787;
+	padding: 20px 0 0 0;
+}
+.specification .sf_group {
+	width: 33%;
+	border-right: 1px solid #878787;
+	text-align: center;
+	font-size: 12px;
+}
+.specification .sf_group:last-child {
+	border-right: none;
+}
+.specification .sf_group:first-child {
+	/*border-left: 1px solid #878787;*/
+}
+.specification .sf_group p {
+	margin: 5px 0;
+	font-size: 30px;
+	display: block;
+	color:#723D70;
+}
+.specification .sf_group span {
+	display: block;
+}
+.windows_logo_2 {
+	background: url(../images/logo_windows_blue.png) no-repeat left bottom;
+    background-size: 442px 66px;
+    padding: 36px 0 0 450px;
+    float: right;
+    height: 66px;
+    margin: 80px 0 20px 0;
+}
+@media (max-width: 1300px) {
+	.tower_img {
+		width: 150px;
+		vertical-align: middle;
+	}
+	.dell_action .call_action .windows_logo {
+		background: url(../images/logo_windows_blue.png) no-repeat left top;
+		background-size: 300px auto;
+		display: block;
+		width: 300px;
+		padding: 60px 0 0 0;
+		text-align: left;
+		height: auto;
+		margin:0 0 40px 0;
+	}
+	.dell_action .call_action p {
+		width: 100%;
+		display: block;
+		overflow: hidden;
+	}
+	.dell_action .item {
+		vertical-align: middle;
+		padding: 0 50px 0 0;
+		width: 200px;
+	}
+	
+}
+@media (max-width: 1080px) {
+	.button_group {
+		text-align: center;
+	}
+	.button_group li {
+		width: 280px;
+		margin:0 auto 20px auto;
+		display: block;
+	}
+}
+@media (max-width: 980px) {
+	.tower_img {
+		width: 200px;
+		vertical-align: middle;
+	}
+	.dell_tower .Tower5820 {
+		width: 100%;
+		float:left;
+		margin:0 0 80px 0;
+	}
+	.dell_tower .Tower7920 {
+		width: 100%;
+	}
+	.windows_logo_2 {
+	    background: url(../images/logo_windows_blue.png) no-repeat center top;
+	    background-size: 442px 66px;
+	    padding: 80px 0 0 0px;
+	    float: right;
+	    height: auto;
+	    width: 450px;
+	    margin: 80px auto 20px auto;
+	    text-align: center;
+	    display: block;
+	    text-align: right;
+	}
+	.mv_list li {
+		width: 48%;
+	}
+	.tech_group {
+		display: inline-flex;
+		flex-wrap: wrap;
+	}
+	.tech_group li {
+		width: 48%;
+		margin-bottom: 20px;
+	}
+	.search_full {
+		width: 80%;
+	}
+	#mk-fullscreen-searchform #mk-fullscreen-search-input {
+		width: 100%;
+	}
+}
+@media (max-width: 920px) {
+	.kv_index {
+		float:left;
+		background: url(../images/kv_index.jpg) no-repeat right top;
+	    background-size: 170% auto;
+	    width: 100%;
+	    padding-top: 63%;
+	}
+	.kv_intro {
+		display: block;
+		width: 100%;
+		float:left;
+		background: #3f3f3f;
+		padding: 90px;
+		position: initial;
+		transform: translate(0, 0%); 
+	}
+	.dell_20_years .years_img {
+		width: 100%;
+	}
+	.dell_20_years .years_info {
+		width: 100%;
+		padding: 0;
+		margin: 30px 0 0 0;
+	}
+}
+@media (max-width: 768px) {
+	.tower_img {
+		width: 150px;
+		vertical-align: middle;
+	}
+	.future_list {
+		flex-wrap: wrap;
+		justify-content: flex-start;
+	}
+	.future_list li {
+		width: 30%;
+	}
+	.future_list li:nth-child(2) , .future_list li:nth-child(5) {
+		margin: 0 5%;
+	}
+	section {
+		padding: 50px 30px;
+	}
+	.AI_intro {
+		width: 90%;
+		margin: 0 5%;
+	}
+	.AI_intro h2 {
+		letter-spacing: 0.1em;
+	}
+}
+@media (max-width: 640px) {
+	.future_list {
+		flex-wrap: wrap;
+		justify-content: flex-start;
+	}
+	.future_list li {
+		width: 480px;
+		margin: 0 auto;
+	}
+	.future_list li:nth-child(2) , .future_list li:nth-child(5) {
+		margin: 0% auto;
+	}
+	.future_list li .future_img img {
+		width: 100%;
+	}
+	.dell_ai_ready {
+		display: block;
+	}
+	.pic_ai_ready {
+		width: 90%;
+		float:right;
+		padding: 0 5%;
+	}
+	.info_ai_ready {
+		width: 100%;
+		float:right;
+		margin: 0 0 50px 0;
+	}
+	.dell_tower .Tower7920 , .dell_tower .Tower5820 {
+		display: block;
+	}
+	.tower_img {
+		width: 100%;
+		display: block;
+		text-align: center;
+		margin:0 0 20px 0;
+	}
+	.tower_img img {
+		width: 150px;
+	}
+	.tower_info {
+		width: 100%;
+		display: block;
+	}
+	.windows_logo_2 {
+	    background: url(../images/logo_windows_blue.png) no-repeat center top;
+	    background-size: 300px auto;
+	    padding: 55px 0 0 0px;
+	    float: right;
+	    height: auto;
+	    width: 300px;
+	    margin: 80px auto 20px auto;
+	    text-align: center;
+	    display: block;
+	    text-align: right;
+	}
+	.dell_workstation .workstation_img {
+		width: 100%;
+	}
+	.dell_workstation .workstation_info {
+		width: 100%;
+		padding: 0;
+	}
+	.dell_action {
+		display: block;
+	}
+	.dell_action .item {
+		display: block;
+		width: 100%;
+		float:left;
+		text-align: center;
+		border-right: none;
+		padding: 0 0 30px 0;
+		margin: 0 0 30px 0;
+	}
+	.dell_action .item img {
+		width: 200px;
+	}
+	.dell_action .call_action {
+		display: block;
+		width: 100%;
+		float:left;
+		padding: 0;
+		text-align: center;
+	}
+	.mv_list li .mv_cover p {
+		font-size: 18px;
+	}
+	.dell_performance .info_performance {
+		width: 100%;
+		text-align: justify;
+	    margin: 30px 0%;
+	}
+	.dell_action .call_action .button_join {
+		float:initial;
+		width: 120px;
+		height: 40px;
+		display: inline-block;
+	}
+	.dell_action .call_action .windows_logo {
+	    background: url(../images/logo_windows_blue.png) no-repeat left top;
+	    background-size: 200px auto;
+	    display: block;
+	    width: 250px;
+	    padding: 40px 0 0 0;
+	    text-align: left;
+	    height: auto;
+	    margin: 0 auto 40px auto;
+	    font-size: 13px;
+	    float: initial;
+	}
+	.dell_tech .heading {
+	    font-size: 30px;
+	}
+}
+@media (max-width: 480px) {
+	.windows_logo_2 {
+	    background: url(../images/logo_windows_blue.png) no-repeat center top;
+	    background-size: 100% auto;
+	    padding: 55px 0 0 0px;
+	    float: right;
+	    height: auto;
+	    width: 100%;
+	    margin: 80px auto 20px auto;
+	    text-align: center;
+	    display: block;
+	    text-align: right;
+	    font-size: 11px;
+	}
+	.future_list li {
+		width: 100%;
+		margin: 0 auto;
+	}
+	.future_list li:nth-child(2) , .future_list li:nth-child(5) {
+		margin: 0% auto;
+	}
+	.mv_list li {
+		width: 100%;
+	}
+	.dell_action .item img {
+		width: 150px;
+	}
+	.kv_intro {
+		padding: 30px;
+	}
+}
+
+
+
+/********************************************************
+RWD Youtube
+********************************************************/
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+}
+/*#section1 .video-container {
+	padding-bottom: 33.15%;
+}*/
+#section1 .video-container {
+	padding-bottom: 42.15%;
+	position: relative;
+}
+.LightBoxInside embed {
+	height: 80vh;
+}
+.video-container iframe, .video-container object, .video-container embed {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.scrollable-element::-webkit-scrollbar-track {
+	border-radius: 3px;
+	overflow: hidden;
+}
+.scrollable-element::-webkit-scrollbar {
+	width: 5px;
+	background-color: rgba(255,255,255,.1);
+	border-radius: 3px;
+	overflow: hidden;
+}
+.scrollable-element::-webkit-scrollbar-thumb {
+	background-color: rgba(255,255,255,.2);
+	border-radius: 3px;
+	overflow: hidden;
+}
+/**** lightbox *****/
+.short-animate {
+  -webkit-transition:.5s ease-in-out;
+  -moz-transition:.5s ease-in-out;
+  -ms-transition:.5s ease-in-out;
+  -o-transition:.5s ease-in-out;
+  transition:.5s ease-in-out;
+}
+.long-animate {
+  -webkit-transition: .5s .5s ease-in-out;
+  -moz-transition: .5s .5s ease-in-out;
+  -ms-transition: .5s .5s ease-in-out;
+  -o-transition:.5s .5s ease-in-out;
+  transition:.5s .5s ease-in-out;
+}
+.close-lightbox {
+  display:block;
+  position:absolute;
+  overflow:hidden;
+  height:50px;
+  width:50px;
+  text-indent:-5000px;
+  right:10px;
+  top:10px;
+  -webkit-transform:rotate(45deg);
+  -moz-transform:rotate(45deg);
+  -ms-transform:rotate(45deg);
+  -o-transform:rotate(45deg);
+  transform:rotate(45deg);
+}
+.close_bar {
+	width: 100%;
+	height: 50px;
+	position: absolute;
+	top:-50px;
+	left: 0;
+	right: 0;
+	background: #444;
+}
+#close-panel {
+	/*position: fixed;
+	right: -1px;
+	top:-1px;*/
+	float:right;
+	width: 50px;
+	height: 50px;
+	background: #444;
+	color:#fff;
+	text-align: center;
+	font-size: 40px;
+	line-height: 50px;
+	text-decoration: none;
+}
+.LightBoxInside {
+	width: 80%;
+	max-width: 1200px;
+	margin:0 auto;
+	box-sizing:border-box;
+	text-align: center;
+	background: #fff;
+	border-radius: 3px;
+	position: fixed;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	font-size: 18px;
+	color:#505050;
+	max-height: 80vh;
+	height: auto;
+	text-shadow:none;
+}
+#lightbox-panel .scrollable-element {
+	width: 100%;
+	overflow-y: scroll;
+}
+.LightBoxInside::-webkit-scrollbar-track {
+	border-radius: 3px;
+	overflow: hidden;
+}
+.LightBoxInside::-webkit-scrollbar {
+	width: 10px;
+	background-color: rgba(255,255,255,.3);
+	border-radius: 3px;
+	overflow: hidden;
+}
+.LightBoxInside::-webkit-scrollbar-thumb {
+	background-color: #ffb56e;
+	border-radius: 3px;
+	overflow: hidden;
+}
+#lightbox {
+  display:none;
+  background: rgba(0,0,0,0.8);
+  position:absolute;
+  top:0px;
+  left:0px;
+  min-width:100%;
+  min-height:100%;
+  z-index:1000;
+}
+#lightbox-panel {
+  display:none;
+  z-index:1001;
+  background: rgba(0,0,0,.8);
+	position: fixed;
+	top:0;
+	right: 0;
+	bottom: 0;
+	left:0;
+	height: 100vh;
+	width: 100vw;
+}
+#lightbox-panel iframe {
+	border:none;
+}
+.pop_info {
+	max-height: 80vh;
+	overflow-y: auto;
+}
+.pop-tech {
+	max-height: 80vh;
+	overflow-y: auto;
+	padding: 0;
+}
+.tech-header {
+	background: url(../images/tech_header_bg.jpg) no-repeat center top;
+	background-size: cover;
+	min-height: 340px;
+	width: 100%;
+	float:left;
+	text-align: center;
+	color:#fff;
+	display: flex;
+	align-items:center;
+}
+.tech-header > div {
+	width: 100%;
+	text-align: center;
+}
+.tech-header .heading {
+	display: inline-block;
+	border-bottom: 1px solid #fff;
+	padding: 0 0 20px 0;
+}
+.tech-header .explain {
+	font-size: 16px;
+	/*color:#878787;*/
+	text-align: center;
+	display: block;
+	margin: 20px 0 0px 0;
+}
+.tech-content {
+	padding: 50px 90px;
+	width: 100%;
+	float:left;
+}
+.button_get {
+	padding: 0 8px;
+	line-height: 40px;
+	display: inline-block;
+	margin: 50px 0 0 0;
+	border:2px solid #3580A7;
+	color:#3580A7;
+}
+.diskimg {
+	width: 35%;
+	float:right;
+	margin: 30px 0 0 0;
+}
+.machine_data {
+	width: 65%;
+	float:left;
+	text-align: left;
+	padding: 0 0 0 30px;
+	margin: 0px 0 0 0;
+}
+.machine_data h5 {
+	width: 100%;
+	float:left;
+	margin: 0 0 20px 0;
+	color:#003F5C;
+	font-weight: bold;
+}
+.machine_data dl {
+	width: 50%;
+	float:left;
+	margin: 0 0 30px 0;
+	font-size: 16px;
+}
+.machine_data dl dt {
+	display: block;
+	font-weight: bold;
+	margin:0 0 10px 0;
+}
+.machine_text {
+	display: block;
+	font-size: 13px;
+	width: 100%;
+	float: left;
+	margin: 20px 0 0 0;
+	color:#003F5C;
+}
+.optimizer_block {
+	display: block;
+}
+.optimizer_img {
+	width: 200px;
+	float:right;
+}
+.optimizer_info {
+	width: calc(100% - 200px);
+	padding-right: 50px;
+	float:left;
+	text-align: left;
+	font-size: 16px;
+	display: inline-flex;
+	flex-wrap: wrap;
+	align-content: stretch;
+}
+.optimizer_info div {
+	width: 50%;
+	float:left;
+	padding-right: 50px;
+}
+.optimizer_info h5 {
+	display: block;
+	margin: 0 0 50px 0;
+	display: block;
+	font-weight: bold;
+	margin:0 0 10px 0;
+	color:#003F5C;
+	font-size: 20px;
+	font-weight: bold;
+}
+.optimizer_info ul {
+	display: block;
+	margin: 0 0 30px 0;
+	padding: 0 0 0 20px;
+}
+.optimizer_info ul li {
+	font-size: 14px;
+	list-style-type: disc;
+}
+.optimizer_block span {
+	font-size: 13px;
+	color:#003F5C;
+	width: 100%;
+	float:left;
+	margin:20px 0 0 0;
+}
+.tech_full {
+	width: 100%;
+	float:left;
+	text-align: left;
+}
+.tech_full a {
+	float:left;
+	color:#007db8;
+	display: inline-block;
+}
+.tech_full a:after {
+    content: '▶';
+    margin: 0 0 0 5px;
+    float:right;
+}
+.rmt {
+	display: flex;
+}
+.rmt .rmt-block {
+	width: 50%;
+	float:left;
+	padding-right: 50px;
+}
+.rmt dl {
+	display: block;
+	text-align: left;
+}
+.rmt dl dt {
+	display: block;
+	font-weight: bold;
+	margin:0 0 10px 0;
+	color:#003F5C;
+	font-size: 20px;
+	font-weight: bold;
+}
+.rmt dl dd {
+	display: block;
+	font-size: 14px;
+}
+.rmt ul {
+	display: block;
+	text-align: left;
+	font-size: 14px;
+	color:#003F5C;
+	margin:0 0 30px 0;
+}
+.rmt ul li {
+	display: block;
+	text-align: left;
+}
+.rmt-pic {
+	width: 200px;
+}
+
+@media (max-width: 980px) {
+	.optimizer_img {
+		width: 100%;
+		margin:0 0 30px 0;
+	}
+	.optimizer_info {
+		width: 100%;
+		padding: 0;
+	}
+	.diskimg {
+		width: 100%;
+	}
+	.machine_data {
+		width: 100%;
+		padding: 0;
+	}
+	.optimizer_info div {
+		width: 100%;
+		padding: 0;
+	}
+	.tech-header {
+		padding: 20px 50px;
+	}
+}
+@media (max-width: 768px) {
+	.pop-tech {
+		max-height: 80vh;
+		overflow-y: auto;
+	}
+	.heading {
+		font-size: 36px;
+	}
+	.rmt {
+		display: block;
+	}
+	.rmt .rmt-block {
+		width: 100%;
+		padding: 0;
+	}
+	.rmt-pic {
+		width: 100%;
+	}
+	.rmt-pic img {
+		width: 200px;
+	}
+	.tech-content {
+		padding: 30px;
+	}
+}
+@media (max-width: 640px) {
+	.machine_data dl {
+		width: 100%;
+	}
+	.heading {
+	    font-size: 30px;
+	}
+	.kv_intro h2 {
+		font-size: 30px;
+	}
+	.tech_group {
+		width: 100%;
+		margin: 50px 0% 0 0%;
+	}
+	.tech_group li {
+		width: 46%;
+	}
+	.tech_group li span {
+		font-size: 14px;
+	}
+	.AI_intro p {
+		font-size: 14px;
+	}
+}
